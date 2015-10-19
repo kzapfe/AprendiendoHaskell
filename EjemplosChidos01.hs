@@ -21,7 +21,7 @@ listadelistas = [[1,3,5,2,3,1,2,4,5],
 --de una lista de listas.
 funchar xxs = [ [ x | x <- xs, even x ] | xs <- xxs]
 
-triangulos=[ (a,b,c) | a <-[1..10], b<-[1..10], c<- [1..10]]
+triangulos=[ (a,b,c) | a <-[1..1000], b<-[1..1000], c<- [1..10]]
 
 triangulospitagoras=[ (a,b,c) | c <-[1..10], b<-[1..c], a<- [1..b], c^2==a^2+b^2]
 
